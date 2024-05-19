@@ -66,7 +66,7 @@ def update_task(updateTask: UpdateTask):
     
     for idx, task in enumerate(tasks):
         if task.get("id") == updateTask.get("id"):
-            for key, value in updateTask.items()
+            for key, value in updateTask.items():
                 tasks[idx][key]=value
             return task
     
